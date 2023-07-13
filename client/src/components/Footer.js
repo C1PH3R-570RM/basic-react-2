@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <>
             <div className="footer-container">
-             <p className="copyright">&copy; 2023 All Rights Reserved</p>
+            <p className="copyright">&copy; {new Date().getFullYear()} Company Name. All rights reserved.</p>
             </div>
         </>
     );
